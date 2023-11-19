@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>calendar</title>
+<style type="text/css">
+    body {font-size: 30px;}
+</style>
+<style>
+    th,td {
+        border: solid black 1px;
+    }
+    table{
+        border: solid 1px;
+        border-collapse:  collapse;
+        font-size: 20px;
+        width: 400px;
+        height: 400px;
+    }
+</style>
+</head>
+<body>
+     <div id="title"></div>
+     <table style="text-align:center"  id="calendar">
+        <tr><th style="color:red;">日</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th style="color:blue;">土</th></tr>
+        <tr><td style="color:red;"></td><td></td><td></td><td></td><td></td><td></td><td style="color:blue;"></td></tr>
+        <tr><td style="color:red;"></td><td></td><td></td><td></td><td></td><td></td><td style="color:blue;"></td></tr>
+        <tr><td style="color:red;"></td><td></td><td></td><td></td><td></td><td></td><td style="color:blue;"></td></tr>
+        <tr><td style="color:red;"></td><td></td><td></td><td></td><td></td><td></td><td style="color:blue;"></td></tr>
+        <tr><td style="color:red;"></td><td></td><td></td><td></td><td></td><td></td><td style="color:blue;"></td></tr>
+        <tr><td style="color:red;"></td><td></td><td></td><td></td><td></td><td></td><td style="color:blue;"></td></tr>
+        </table><br>
+        <button onclick="back()">先月</button><br>
+        <button onclick="today()">今日の日付</button><br>
+        <button onclick="forward()">来月</button><br>
+    </div>
+    <script src="calendar.js"></script>
+</body>
+</html>
