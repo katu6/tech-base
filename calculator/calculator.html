@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+</head>
+<style type="text/css">
+    body {line-height: 10px;}
+    body {font-size: 20px;}
+</style>
+<style>
+    #result{
+        display: inline-block;
+        width: 260px;
+        height: 50px;
+        border: 1px solid #999;
+        box-sizing: border-box;
+        background: #f2f2f2;
+        font-size: 20px;
+    }
+    .but{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <br>
+    <div id="middle">　</div><br>
+    <input type="text" id="result" value=""><br><br>
+    <button class="but" onclick="AC()">AC</button>　<button class="but" onclick="percent()">%</button>　<button class="but" onclick="CE()">CE</button>　<button class="but" onclick="division()">÷</button><br><br>
+    <button class="but" onclick="enter7()">7</button>　<button class="but" onclick="enter8()">8</button>　<button class="but" onclick="enter9()">9</button>　<button class="but" onclick="times()">×</button><br><br>
+    <button class="but" onclick="enter4()">4</button>　<button class="but" onclick="enter5()">5</button>　<button class="but" onclick="enter6()">6</button>　<button class="but" onclick="minus()">-</button><br><br>
+    <button class="but" onclick="enter1()">1</button>　<button class="but" onclick="enter2()">2</button>　<button class="but" onclick="enter3()">3</button>　<button class="but" onclick="plus()">+</button><br><br>
+    <button class="but" onclick="enter0()">0</button>　<button class="but" onclick="enter00()">00</button>　<button class="but" onclick="enterp()">.</button>　<button class="but" onclick="equal()">=</button><br><br>
+    <script src="calculator.js"></script>
+</body>
+</html>
